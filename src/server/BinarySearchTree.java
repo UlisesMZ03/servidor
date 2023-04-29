@@ -27,7 +27,7 @@ public class BinarySearchTree {
     public BinarySearchTree() {
         root = null;
         try {
-            File file = new File("C:/Users/ulise/Desktop/TEC/Algoritmos y estructura de datos I/pro/servidor/src/serverusuarios.xml");
+            File file = new File("C:/Users/ulise/Desktop/TEC/Algoritmos y estructura de datos I/pro/servidor/src/server/usuarios.xml");
             DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
             DocumentBuilder builder = factory.newDocumentBuilder();
             Document document = builder.parse(file);
