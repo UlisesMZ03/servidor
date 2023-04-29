@@ -118,7 +118,7 @@ public class BinarySearchTree {
     public void toXml() {
         try {
             XMLOutputFactory factory = XMLOutputFactory.newInstance();
-            XMLStreamWriter writer = factory.createXMLStreamWriter(new FileOutputStream(new File("C:/Users/ulise/Desktop/TEC/Algoritmos y estructura de datos I/Proyecto2/JavaFXApplication8/src/usuarios.xml")));
+            XMLStreamWriter writer = factory.createXMLStreamWriter(new FileOutputStream(new File("C:/Users/ulise/Desktop/TEC/Algoritmos y estructura de datos I/pro/servidor/src/server/usuarios.xml")));
             writer.writeStartDocument();
             writer.writeStartElement("usuariooos");
 
